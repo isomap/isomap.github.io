@@ -1,9 +1,39 @@
-a{
+a {
   color: #0e9ce0
 }
-button{
-  color: white
-}
+
 /*p{
   font-family: 'Josefin Slab', serif;
 }*/
+@media (prefers-color-scheme: dark) {
+  a {
+    color: #abe3ff
+  }
+  body {
+    color: #eee;
+    background: #404040;
+  }
+  .btn-default {
+  color: white;
+  background-color: #404040;
+  }
+  .btn-default:hover {
+  box-shadow: inset 0 0 0 20rem var(--darken-1);
+  }
+
+  .btn-default:active {
+    box-shadow: inset 0 0 0 20rem var(--darken-2),
+      inset 0 3px 4px 0 var(--darken-3),
+      0 0 1px var(--darken-2);
+  }
+
+  .btn-default:disabled,
+  .btn-default.is-disabled {
+    opacity: .5;
+  }
+
+
+  /* body a {
+    color: #809fff;
+  } */
+}
