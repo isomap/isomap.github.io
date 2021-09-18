@@ -32,8 +32,16 @@ a {
     opacity: .5;
   }
 
+  pre {
+    color: #eee;
+    background-color: #404040;
+  }
 
   /* body a {
     color: #809fff;
   } */
+}
+
+details {
+  display: contents;;
 }
