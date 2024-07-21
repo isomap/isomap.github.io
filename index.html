@@ -1,259 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags always come first -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta property="og:title" content="Hayate Iso">
-    <meta property="og:image" content="https://isomap.github.io/iso.jpg">
-    <meta property="og:locale" content="en_US">
-    <meta name="description" content="Senior Research Scientist at Megagon Labs, working on natural language processing, machine learning, and text generation. Previously, I was at Amazon, ByteDance, and Rare-Technologies.">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css" media="screen" title="no title">
-    <link href="./fontawesome/css/fontawesome.css" rel="stylesheet">
-    <link href="./fontawesome/css/brands.css" rel="stylesheet">
-    <link href="./fontawesome/css/solid.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hayate Iso | Senior Research Scientist at Megagon Labs</title>
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.6.0/css/all.css">
+    <!-- Core theme CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Academicons CSS -->
     <link rel="stylesheet" href="./academicons-1.8.6/css/academicons.css"/>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-
-    <title>Hayate Iso</title>
   </head>
 
   <body>
-    <div class="container">
-      <div class="row">
-        <img src="iso.jpg" class="pull-left" style="margin:20px 20px 20px 0; height:140px; width:140px; border-radius:100%">
-        <h1>Hayate Iso</h1>
-        <p>
-          Senior Research Scientist at <a href="https://megagon.ai">Megagon Labs</a>. <br>
-          <a href="mailto:hayate@megagon.ai">hayate@megagon.ai</a><br>
-          <a href="https://github.com/isomap">
-            <i class="fa-brands fa-github-alt" aria-hidden="true"></i>
+    <!-- Parallax Pixel Background Animation -->
+    <section class="animated-background">
+      <div id="stars1"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+    </section>
+    <!-- End of Parallax Pixel Background Animation -->
+
+    <a id="profilePicture" href="#popup">
+      <img src="iso.jpg" alt="Profile Picture">
+    </a>
+
+    <div class="overlay" id="popup">
+      <div class="popup">
+        <div class="popup-photo">
+          <a href="iso.jpg" target="_blank">
+            <img src="iso.jpg" alt="Profile Picture">
           </a>
-          <a href="https://www.linkedin.com/in/hayate-iso">
-            <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
-          </a>
-          <a href="https://x.com/iso_map">
-            <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
-          </a>
-          <a href="https://scholar.google.co.jp/citations?user=O2o6LJgAAAAJ">
-            <i class="ai ai-google-scholar"></i>
-          </a>
-          <a href="https://www.semanticscholar.org/author/Hayate-Iso/7782351">
-            <i class="ai ai-semantic-scholar"></i>
-          </a>
-        </p>
-        <strong><a href="hayate-iso.pdf">Curriculum Vitae</a></strong>
-      </div>
-
-      <div class="row">
-        <p>Hello👋 I am a senior research scientist at Megagon Labs. I am interested in natural language generation, opinion summarization, and user-generated text analysis.</p>
-        <hr>
-      </div>
-      
-      <div class="row">
-        <h3>Publications</h3>
-        <h4>2024</h4>
-        <p>
-          <strong>AmbigNLG: Addressing Task Ambiguity in Instruction for NLG</strong><br>
-          Ayana Niwa, <strong>Hayate Iso</strong><br>
-          <i>preprint</i>, 2024 <br>
-          <div>
-            <a href="https://arxiv.org/abs/2402.17717" target="_blank" class="btn btn-default btn-xs">arXiv</a>
-          </div>
-        </p>
-        <p>
-          <strong>Noisy Pairing and Partial Supervision for Opinion Summarization</strong> <br>
-          <strong>Hayate Iso</strong>, Xiaolan Wang, Yoshi Suhara<br>
-          <i>International Natural Language Generation Conference</i> (INLG), 2024
-          <div>
-            <a href="https://arxiv.org/abs/2211.08723" target="_blank" class="btn btn-default btn-xs">arXiv</a>
-          </div>
-        </p>
-        <p>
-          <strong>AutoTemplate: A Simple Recipe for Lexically Constrained Text Generation</strong> <br>
-          <strong>Hayate Iso</strong> <br>
-          <i>International Natural Language Generation Conference</i> (INLG), 2024
-          <div>
-            <a href="https://arxiv.org/abs/2211.08387" target="_blank" class="btn btn-default btn-xs">arXiv</a>            
-          </div>
-        </p>
-        <p>
-          <strong>Retrieval Helps or Hurts? A Deeper Dive into the Efficacy of Retrieval Augmentation to Language Models</strong><br>
-          Seiji Maekawa, <strong>Hayate Iso</strong>, Sairam Gurajada, Nikita Bhutani<br>
-          <i>North American Chapter of the Association for Computational Linguistics</i> (NAACL), 2024 <br>
-          <div>
-            <a href="https://aclanthology.org/2024.naacl-long.308/" target="_blank" class="btn btn-default btn-xs">Paper</a>
-            <a href="https://arxiv.org/abs/2402.13492" target="_blank" class="btn btn-default btn-xs">arXiv</a>
-            <a href="https://github.com/megagonlabs/witqa" target="_blank" class="btn btn-default btn-xs">Github</a>
-          </div>
-        </p>
-      <p>
-        <strong>XATU: A Fine-grained Instruction-based Benchmark for Explainable Text Updates</strong><br>
-        Haopeng Zhang, <strong>Hayate Iso</strong>, Sairam Gurajada, Nikita Bhutani<br>
-        <i>Joint International Conference On Computational Linguistics, Language Resources And Evaluation</i> (LREC-COLING), 2024 <br>
-        <div>
-          <a href="https://aclanthology.org/2024.lrec-main.1543/" target="_blank" class="btn btn-default btn-xs">Paper</a>
-          <a href="https://arxiv.org/abs/2309.11063" target="_blank" class="btn btn-default btn-xs">arXiv</a>
-          <a href="https://github.com/megagonlabs/xatu" target="_blank" class="btn btn-default btn-xs">Github</a>
-      </p>
-      <p>
-        <strong>Less is More for Long Document Summary Evaluation by LLMs</strong><br>
-        Yunshu Wu*, <strong>Hayate Iso</strong>*, Pouya Pezeshkpour, Nikita Bhutani, Estevam Hruschka <br>
-        <i>European Chapter
-          of the Association for Computational Linguistics</i> (EACL), 2024 <br>
-        <div>
-          <a href="https://aclanthology.org/2024.eacl-short.29/" target="_blank" class="btn btn-default btn-xs">Paper</a>
-          <a href="https://arxiv.org/abs/2309.07382" target="_blank" class="btn btn-default btn-xs">arXiv</a>
-          <a href="https://github.com/megagonlabs/llm-longeval" target="_blank" class="btn btn-default btn-xs">Github</a>
-      </p>
-
-      <h4>2023</h4>
-        <p>
-          <strong>Zero-shot Triplet Extraction by Template Infilling</strong><br>
-          Bosung Kim, <strong>Hayate Iso</strong>, Nikita Bhutani, Estevam Hruschka, Ndapa Nakashole, Tom M. Mitchell <br>
-          <i>Asia-Pacific Chapter of the Association for Computational Linguistics and International Joint Conference on Natural Language Processing</i>  (AACL-IJCNLP), 2023 <br>
-          <div>
-            <a href="https://aclanthology.org/2023.ijcnlp-main.18/" target="_blank" class="btn btn-default btn-xs">Paper</a>
-            <a href="https://arxiv.org/abs/2212.10708" target="_blank" class="btn btn-default btn-xs">arXiv</a>
-            <a href="https://github.com/megagonlabs/zett" target="_blank" class="btn btn-default btn-xs">Github</a>
-        </p>
-      <h4>2022</h4>
-          <strong>Comparative Opinion Summarization via Collaborative Decoding</strong> <br>
-          <strong>Hayate Iso</strong>, Xiaolan Wang, Stefanos Angelidis, Yoshihiko Suhara<br>
-          <i>Findings of the Association for Computational Linguistics</i>  (ACL), 2022 <br>
-          <div>
-            <a href="https://aclanthology.org/2022.findings-acl.261/" target="_blank" class="btn btn-default btn-xs">Paper</a>
-            <a href="https://arxiv.org/abs/2110.07520" target="_blank" class="btn btn-default btn-xs">arXiv</a>
-            <a href="https://github.com/megagonlabs/cocosum" target="_blank" class="btn btn-default btn-xs">Github</a>
-        </p>
-      <h4>2021</h4>
-        <p>
-          <strong>Convex Aggregation for Opinion Summarization</strong> <br>
-          <strong>Hayate Iso</strong>, Xiaolan Wang, Yoshihiko Suhara, Stefanos Angelidis, Wang-Chiew Tan<br>
-          <i>Findings of the Conference on Empirical Methods in Natural Language Processing</i>  (EMNLP), 2021 <br>
-          <div>
-            <a href="https://aclanthology.org/2021.findings-emnlp.328/" target="_blank" class="btn btn-default btn-xs">Paper</a>
-            <a href="https://arxiv.org/abs/2104.01371" target="_blank" class="btn btn-default btn-xs">arXiv</a>
-            <a href="https://github.com/megagonlabs/coop" target="_blank" class="btn btn-default btn-xs">Github</a>
-        </p>
-          </div>
-        </p>
-        <p>
-          <strong>End-to-end Biomedical Entity Linking with Span-based Dictionary Matching</strong> <br>
-          Shogo Ujiie, <strong>Hayate Iso</strong>, Shuntaro Yada, Shoko Wakamiya, Eiji Aramaki<br>
-          <i>Biomedical Natural Language Processing Workshop</i>  (BioNLP), 2021 <br>
-          <div>
-            <a href="https://aclanthology.org/2021.bionlp-1.18/" target="_blank" class="btn btn-default btn-xs">Paper</a>
-            <a href="https://arxiv.org/abs/2104.10493" target="_blank" class="btn btn-default btn-xs">arXiv</a>
-          </div>
-        </p>
-
-        <p>
-          <strong>Biomedical Entity Linking with Contrastive Context Matching</strong> <br>
-          Shogo Ujiie, <strong>Hayate Iso</strong>, Eiji Aramaki<br>
-          <i>preprint</i>
-          <div>
-            <a href="https://arxiv.org/abs/2106.07583" target="_blank" class="btn btn-default btn-xs">arXiv</a>
-            <a href="https://github.com/ujiuji1259/biocom" target="_blank" class="btn btn-default btn-xs">Github</a>
-          </div>
-        </p>
-
-      <h4>2020</h4>
-        <p>
-          <strong>Fact-based Text Editing</strong> <br>
-          <strong>Hayate Iso</strong>, Chao Qiao, Hang Li<br>
-          <i>Association for Computational Linguistics</i> (ACL), 2020 <br>
-          <span style="color:#ff6666">Acceptance rate: 778/3,429 = 22.7 % </span><br>
-          <div>
-            <a href="https://www.aclweb.org/anthology/2020.acl-main.17/" target="_blank" class="btn btn-default btn-xs">Paper</a>
-            <a href="https://arxiv.org/abs/2007.00916" target="_blank" class="btn btn-default btn-xs">arXiv</a>
-            <a href="https://github.com/isomap/factedit" target="_blank" class="btn btn-default btn-xs">Github</a>
-            <a href="./slides/iso2020acl.pdf" target="_blank" class="btn btn-default btn-xs">Slide</a>
-          </div>
-        </p>
-
-      <h4>2019</h4>
-        <p>
-          <strong>Learning to Select, Track, and Generate for Data-to-Text</strong> <br>
-          <strong>Hayate Iso</strong>, Yui Uehara, Tatsuya Ishigaki, Hiroshi Noji, Eiji Aramaki, Ichiro Kobayashi, Yusuke Miyao, Naoaki Okazaki and Hiroya Takamura<br>
-          <i>Association for Computational Linguistics</i> (ACL), 2019 <br>
-          <span style="color:#ff6666">Acceptance rate: 660/2,905 = 22.7 % </span><br>
-          <div>
-            <a href="https://www.aclweb.org/anthology/P19-1202/" target="_blank" class="btn btn-default btn-xs">Paper</a>
-            <a href="https://arxiv.org/abs/1907.09699" target="_blank" class="btn btn-default btn-xs">arXiv</a>
-            <a href="https://github.com/aistairc/sports-reporter" target="_blank" class="btn btn-default btn-xs">Github</a>
-            <a href="./posters/iso2019acl.pdf" target="_blank" class="btn btn-default btn-xs">Poster</a>
-          </div>
-        </p>
-
-      <h4>2018</h4>
-        <p>
-          <strong>Wisdom in Adversity: A Twitter Study of the Japanese Tsunami</strong><br>
-          Paolo Casani, <strong>Hayate Iso</strong>, Shoko Wakamiya, Eiji Aramaki<br>
-          <i>Advances in Social Networks Analysis and Mining</i> (ASONAM), 2018
-          <div>
-            <a href="https://ieeexplore.ieee.org/abstract/document/8508253" target="_blank" class="btn btn-default btn-xs">Paper</a>
-            <a href="./papers/paolo-iso-wakamiya-aramaki2018asomam.pdf" target="_blank" class="btn btn-default btn-xs">PDF</a>
-          </div>
-        </p>
-
-        <p>
-          <strong>Parsing Japanese Tweets into Universal Dependencies</strong> <br>
-          <strong>Hayate Iso</strong>, Kaoru Ito, Hiroyuki Nagai, Taro Okahisa and Eiji Aramaki <br>
-          <i>Universal Dependencies Workshop</i> (UDW), 2018 <br>
-          <div>
-            <a href="./posters/iso2018udw.pdf" target="_blank" class="btn btn-default btn-xs">Poster</a>
-          </div>
-        </p>
-
-      <h4>2017</h4>
-        <p>
-          <strong>NTCIR13 MedWeb Task: Multi-label Classification of Tweets using an Ensemble of Neural Networks</strong> <br>
-          <strong>Hayate Iso</strong>, Camille Ruiz, Taichi Murayama, Katsuya Taguchi, Ryo Takeuchi, Hideya Yamamoto, Shoko Wakamiya and Eiji Aramaki <br>
-          <i>NII Testbeds and Community for Information Access Research</i> (NTCIR), 2017 <br>
-          <span style="color:#ff6666">Best System Award [<a href="https://sociocom.jp/mednlp/medweb/NTCIR-13/image/NTCIR13_MedWeb_BestSystemAward.pdf">link</a>]</span><br>
-          <div>
-            <a href="https://research.nii.ac.jp/ntcir/workshop/OnlineProceedings13/pdf/ntcir/04-NTCIR13-MEDWEB-IsoH.pdf" target="_blank" class="btn btn-default btn-xs">Paper</a>
-            <a href="https://research.nii.ac.jp/ntcir/workshop/OnlineProceedings13/pdf/ntcir/04-NTCIR13-MEDWEB-IsoH-slides.pdf" target="_blank" class="btn btn-default btn-xs">Slide</a>
-            <a href="http://research.nii.ac.jp/ntcir/workshop/OnlineProceedings13/pdf/ntcir/04-NTCIR13-MEDWEB-IsoH-poster.pdf" target="_blank" class="btn btn-default btn-xs">Poster</a>
-          </div>
-        </p>
-
-        <p>
-          <strong>Density Estimation for Geolocation via Convolutional Mixture Density Network</strong> <br>
-            <strong>Hayate Iso</strong>, Shoko Wakamiya and Eiji Aramaki <br>
-            <i>preprint</i>, 2017 <br>
-            <div>
-              <a href="https://arxiv.org/abs/1705.02750/" target="_blank" class="btn btn-default btn-xs">arXiv</a>
-            </div>
-        </p>
-
-
-      <h4>2016</h4>
-        <p>
-          <strong>Forecasting Word Model: Twitter-based Influenza Surveillance and Prediction</strong> <br>
-         <strong>Hayate Iso</strong>, Shoko Wakamiya, Eiji Aramaki <br>
-          <i>Computational Linguistics</i>,  (COLING), 2016 <br>
-          <span style="color:#ff6666">Acceptance rate: 337/1,039 = 32.4 % </span><br>
-        </p>
-        <div>
-          <a href="https://www.aclweb.org/anthology/C16-1008/" target="_blank" class="btn btn-default btn-xs">Paper</a>
-          <a href="./slides/iso2016coling.pdf" target="_blank" class="btn btn-default btn-xs">Slide</a>
         </div>
-      <hr>
+        <div class="popup-quote">
+          But... the sensation that I've lost something lingers for a longtime after I wake up.
+        </div>
+        <a class="popup-close" onclick="history.back()">&times;</a>
+      </div>
     </div>
 
-    <div class="row">
-      <h3>Contact</h3>
-      <p><i class="fa fa-map-marker" aria-hidden="true"></i>
-        444 Castro Street Suite 720 Mountain View, CA 94041<br>
-        Megagon Labs<br>
+    <div id="userName">
+      @isomap
     </div>
 
-
-</script>
-
-</body>
+    <div id="links">
+      <a class="link" href="hayate-iso.pdf" target="_blank">
+        <i class="fas fa-file">&nbsp;</i>Resume (Last update: 18 July '24)
+      </a>
+      <a class="link" href="https://github.com/isomap" target="_blank">
+        <i class="fab fa-github">&nbsp;</i>Github
+      </a>
+      <a class="link" href="https://www.linkedin.com/in/hayate-iso/" target="_blank">
+        <i class="fab fa-linkedin">&nbsp;</i>Linkedin
+      </a>
+      <a class="link" href="https://x.com/isomap" target="_blank">
+        <i class="fab fa-x-twitter">&nbsp;</i>Twitter
+      </a>
+      <a class="link" href="https://scholar.google.co.jp/citations?user=O2o6LJgAAAAJ" target="_blank">
+        <i class="fab fa-google-scholar">&nbsp;</i>Google Scholar
+      </a>
+      <a class="link" href="https://www.semanticscholar.org/author/Hayate-Iso/7782351" target="_blank">
+        <i class="ai ai-semantic-scholar">&nbsp;</i>Semantic Scholar
+      </a>
+    </div>
+  </body>
+</html>
